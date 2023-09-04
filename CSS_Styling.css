@@ -1,0 +1,30 @@
+
+
+.paragraph{
+    color: black;
+    border: 5px;
+    background-image: linear-gradient(diagonal, whitesmoke, purple)
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#l{
+    color: black;
+    font-size: larger;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.myDiv{
+    color: whitesmoke;
+    font-size: larger;
+    font-style: oblique;
+    font-weight: bold;
+    background-image: linear-gradient(diagonal, whitesmoke, purple)
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#grad{
+    background-image: linear-gradient(to right, orange, purple);
+}
