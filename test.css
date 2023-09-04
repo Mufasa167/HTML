@@ -1,1 +1,26 @@
-sty
+
+
+.paragraph{
+    color: black;
+    border: 5px;
+    background-color: green;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#c{
+    color: red;
+    font-size: larger;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.myDiv{
+    color: whitesmoke;
+    font-size: larger;
+    font-style: oblique;
+    font-weight: bold;
+    background-color:rgb(167, 103, 103);
+    box-sizing: border-box;
+    text-align: center;
+}
