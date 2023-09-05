@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6.2 ex</title>
+    <style>
+       
+        *{
+            box-sizing: border-box;
+        }
+      .txt{
+        text-align: center;
+        font-size: large;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+    .container{
+     max-width: 760px;
+     margin: 30px auto;
+    
+    }    
+    #box1{
+        text-align: center;
+     
+     width: 100%;
+     background-image: linear-gradient(to right, rgb(48, 146, 191), rgb(135, 47, 47));
+     
+    }
+    #box2{
+     
+     text-align: left;
+     width: 50%;
+     background-image: linear-gradient(to right, rgb(35, 141, 212), rgb(102, 28, 28));
+     margin: 15px;
+
+    }
+
+    #box3{
+        text-align: right;
+        float: right;
+     width: 50%;
+     background-image: linear-gradient(to right, rgb(143, 35, 35), rgb(221, 200, 200));
+    }
+
+    #box4{
+        
+     width: 100%;
+     background-image: linear-gradient(to right, rgb(6, 6, 6), rgb(221, 200, 200));
+    margin-top: 0;
+    text-align: center;
+    }
+
+    .box{
+        border: 1px solid black;
+        padding: 5%;
+        margin-bottom: 5px;
+    }
+
+    .clr{
+       clear: both;
+    }
+
+    .card {
+    box-shadow: 10px 4px 8px 0 rgba(0,0,0,0.3);
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    border-radius: 16px;
+    overflow: hidden;
+    background-image: linear-gradient(to right, whitesmoke, rgb(91, 128, 47));
+   }
+
+   img{
+    width:200px;
+    
+   }
+
+   #fun{
+    font-family: Arial, Helvetica, sans-serif;
+   }
+
+   #fun2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+   }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h2 id="box1"> In this paragraph we have implemented the class structure in addition to the use of the id <span id="l">structure</span></h2> 
+
+   <div id="box3">
+    <h2 class="txt">This is some text to test out the function of classes</h2>
+    
+   </div>
+   <div>
+   <h2 id="box2" class="txt">And this a paragraph within a div command using an id command </h2>
+</div>
+<div calss="clr"></div>
+<br>
+
+                <br><div class="card">
+                <img src="megmemes.jpg" alt="card">
+    
+                <h2><span id="fun2">This is a fun card</span></h2>
+                <h3><span id="fun">    Please meet Meg, she's not a likable figure</span></h3>
+            </div>
+        </div>   
+    </div>     
+</body>
+</html>
