@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=|, initial-scale=1.0">
+    <title>8.1ex</title>
+    <style>
+         #outer{
+            
+            width:180px;
+            height:180px;
+            background-image: linear-gradient(to right, green,yellow);
+            
+        }
+
+        #inner{
+          width: 100px;
+          height:100px;
+          z-index: 1;
+          background-image: linear-gradient(to left, blue,orange);
+        }
+        .txt{
+            margin: 10px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="outer"><h2 class="txt">Hi</h2>
+        <div id="inner"></div>
+    </div>
+</body>
+</html>
