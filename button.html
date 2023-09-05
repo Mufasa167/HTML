@@ -5,20 +5,167 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ex.7.1</title>
     <style>
+
+        .container{
+            max-width: 360px;
+           margin: 15px auto;
+           background-image: linear-gradient(to left, blue,rgb(236, 20, 20));
+    
+        }
         .btn1{
             background-image: linear-gradient(to right , rgb(59, 59, 215), rgb(223, 215, 215));
             border: darkblue;
             font-size: 12px;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             cursor: pointer;
-            border-radius: 12px;
-            display: inline-block;
+            border-radius: 14px;
+            float: right;
             
         }
-       
+
+        .btn1:hover{
+          background-image:linear-gradient(to right, rgb(119, 222, 119), rgb(63, 96, 63));
+          color: white;
+        }
+
+
+        .btn2{
+            background-image: linear-gradient(to right , rgb(59, 59, 215), rgb(223, 215, 215));
+            border: darkblue;
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            cursor: pointer;
+        }
+
+        .btn2:hover{
+          background-image:linear-gradient(to right, rgb(119, 222, 119), rgb(63, 96, 63));
+          color: white;
+        }
+
+
+        .btn3{
+            border: 2px solid linear-gradient(to right, rgb(119, 222, 119), rgb(63, 96, 63));
+            background-image:linear-gradient(to right, rgb(169, 222, 169), rgb(63, 96, 63));
+           color: white;
+          padding: 14px 28px;
+          font-size: 14px;
+           cursor: pointer;
+           border-radius: 14px;
+
+        }
+        .btn3:hover{
+          background-image:linear-gradient(to right, rgb(119, 222, 119), rgb(63, 96, 63));
+          color: white;
+        }
+
+        .btn4{
+            border: 2px solid linear-gradient(to right, rgb(119, 222, 119), rgb(63, 96, 63)) ;
+           background-color: transparent;
+           color: white;
+         padding: 14px 28px;
+          font-size: 14px;
+           cursor: pointer;
+        }
+        .btn4:hover{
+          background-image:linear-gradient(to right, rgb(119, 222, 119), rgb(63, 96, 63));
+          color: white;
+        }
+
+        .btn5{
+            background-image: linear-gradient(to right , rgb(59, 59, 215), rgb(223, 215, 215));
+            border: darkblue;
+            font-size: 14px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            cursor: pointer;
+            float: right;
+            
+        }
+
+        .btn5:hover{
+          background-image:linear-gradient(to right, rgb(119, 222, 119), rgb(63, 96, 63));
+          color: white;
+        }
+
+
+        .btn6{
+            border: 2px solid linear-gradient(to right, rgb(119, 222, 119), rgb(63, 96, 63)) ;
+           background-color: transparent;
+            font-size: 14px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            cursor: pointer;
+            float: right;
+            color: white;
+        }
+
+        .btn6:hover{
+          background-image:linear-gradient(to right, rgb(119, 222, 119), rgb(63, 96, 63));
+          color: white;
+        }
+
+
+        .btn8{
+            border: 2px solid linear-gradient(to right, rgb(119, 222, 119), rgb(63, 96, 63)) ;
+           background-color: transparent;
+            font-size: 14px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            cursor: pointer;
+            float: right;
+            color: white;
+            border-radius: 14px;
+        }
+
+        .btn8:hover{
+          background-image:linear-gradient(to right, rgb(119, 222, 119), rgb(63, 96, 63));
+          color: white;
+        }
+
+        .btn7{
+            border: 2px solid linear-gradient(to right, rgb(119, 222, 119), rgb(63, 96, 63)) ;
+           background-color: transparent;
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            cursor: pointer;
+            color: white;
+            border-radius: 14px;
+        }
+
+        .btn7:hover{
+          background-image:linear-gradient(to right, rgb(119, 222, 119), rgb(63, 96, 63));
+          color: white;
+        }
+        .txt{
+            text-align: center;
+            font-weight: 200;
+            font-family:monospace;
+            color: azure;
+        }
     </style>
 </head>
 <body>
-    <button class="btn">Click me</button>
+    <div class="container">
+        <h2 class="txt">Flat</h2>
+    
+    <button class="btn2">Submit</button>
+    <button class="btn5">Register</button>
+    <div>
+        <h2 class="txt"> Round</h2>
+        <br>
+        <br>
+    <button class="btn1">Click me</button>
+    <button class="btn3">Submit</button>
+    <div>
+        <h2 class="txt"> Flat Ghost<h2>
+           <button class="btn4">Submit</button>
+           <button class="btn6">Click me</button>
+
+    </div>
+    <div>
+        <h2 class="txt">Round Ghost</h2>
+        <button class="btn7">Submit</button>
+           <button class="btn8">Click me</button>
+    </div>
+
+</div>
+</div>
 </body>
 </html>
