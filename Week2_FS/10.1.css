@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+max-width: 960px;
+margin: 30px auto;
+
+}    
+
+
+
+article{
+float: left;
+text-align: left;
+background-image: linear-gradient(to right, rgb(69, 61, 61), rgb(102, 28, 28));
+width: 30vw;
+
+
+}
+
+box1{
+text-align: right;
+float: right;
+width: 61vw;
+background-image: linear-gradient(to right, rgb(31, 30, 30), rgb(221, 200, 200));
+}
+
+
+
+.box{
+border: 1px solid black;
+padding: 5%;
+margin-bottom: 5px;
+}
+
+.clr{
+clear: both;
+}
