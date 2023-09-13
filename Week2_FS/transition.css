@@ -1,0 +1,14 @@
+.color-change{
+    background-image: linear-gradient(to left, white, red);
+    width: 100px;
+    height: 100px;
+    margin: 100px auto;
+
+}
+
+.color-change:hover{
+    background-image: linear-gradient(to right, white, skyblue);
+    transition: 10s ease;
+
+}
+

@@ -1,0 +1,12 @@
+.scale-element{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin: 100px auto;
+
+}
+.scale-element:hover{
+   /*transform:  scale(1) translate(100px, 10px) skew(10deg) rotate(45deg); 
+    */transition-duration: 3s;
+    background-image: linear-gradient(to left, white, red);
+}
