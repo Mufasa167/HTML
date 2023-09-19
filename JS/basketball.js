@@ -22,3 +22,4 @@ else if(avg1>avg2){
 consol.log(`John is the winner with and average point tally of ${avg1} points per game`);}
 
 else{console.log(`Mike is the winner with and average point tally of ${avg2} points per game`)}
+
