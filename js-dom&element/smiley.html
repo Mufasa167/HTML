@@ -22,7 +22,7 @@
         const smileyContainer = document.getElementById("smileyContainer");
 
         generateButton.addEventListener("click", function() {
-            var numSmileys = parseInt(numSmileysInput.value);
+            const numSmileys = parseInt(numSmileysInput.value);
 
             if (!isNaN(numSmileys) && numSmileys >= 1) {
                 errorMessage.textContent = "";

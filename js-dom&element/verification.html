@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Verification Code Entry</title>
+</head>
+<body>
+    <h1>Verification Code Entry</h1>
+    <form id="verificationForm">
+        <input type="text" class="verification-input" maxlength="1" required>
+        <input type="text" class="verification-input" maxlength="1" required>
+        <input type="text" class="verification-input" maxlength="1" required>
+        <input type="text" class="verification-input" maxlength="1" required>
+        <input type="text" class="verification-input" maxlength="1" required>
+        <input type="text" class="verification-input" maxlength="1" required>
+    </form>
+
+    <script>
+        var verificationInputs = document.querySelectorAll(".verification-input");
+
+        // Add event listeners to each input
+        verificationInputs.forEach(function(input, index, inputs) {
+            input.addEventListener("input", function() {
+                if (input.value.length === 1 && typeof(input.value)==="number") {
+                    if (index < inputs.length - 1) {
+                        inputs[index + 1].focus(); // Focus on the next input
+                    } else {
+                        // All inputs are populated, auto submit the form
+                        document.getElementById("verificationForm").submit();
+                    }
+                }
+            });
+        });
+
+        // Prevent form submission when pressing Enter
+        document.getElementById("verificationForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+        });
+    </script>
+</body>
+</html>
