@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Click the Lightbulb</h1>
+<img id="lightbulb" src="https://w7.pngwing.com/pngs/859/425/png-transparent-light-bulb-illustration-incandescent-light-bulb-lamp-bulb-candle-product-light-thumbnail.png" alt="Lightbulb Off">
+
+<script>
+    const lightbulb = document.getElementById("lightbulb");
+    const isLightOn = false;
+
+    lightbulb.addEventListener("click", function() {
+        if (isLightOn) {
+            lightbulb.src = "https://w7.pngwing.com/pngs/859/425/png-transparent-light-bulb-illustration-incandescent-light-bulb-lamp-bulb-candle-product-light-thumbnail.png";
+        } else {
+            lightbulb.src = "https://e7.pngegg.com/pngimages/922/441/png-clipart-creative-bulb-lightbulb-energy-saving-lamps-thumbnail.png";
+        }
+        isLightOn = !isLightOn; 
+    
+    });
+</script>
+</body>
+</html>
+
+

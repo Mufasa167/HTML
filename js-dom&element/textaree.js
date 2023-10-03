@@ -7,7 +7,8 @@ const errorMessage=document.getElementById("errorMessage")
 
             if (textLength >= 100) {
                 submitButton.removeAttribute("disabled");
-            } else {
+                errorMessage.textContent=""
+            } else if(textLength<=100 && submitButton.) {
                 submitButton.setAttribute("disabled", "true");
                 errorMessage.textContent= "Please write at least a paragraph of 100 words you lazyass"
             }
